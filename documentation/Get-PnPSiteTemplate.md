@@ -143,7 +143,7 @@ Extracts a provisioning template in Office Open XML from the current web, exclud
 
 ### EXAMPLE 15
 ```powershell
-Get-PnPSiteTemplate -Out template.pnp -ListsToExtract "Title of List One","95c4efd6-08f4-4c67-94ae-49d696ba1298","Title of List Three"
+Get-PnPSiteTemplate -Out template.pnp -Handlers Lists -ListsToExtract "Title of List One","95c4efd6-08f4-4c67-94ae-49d696ba1298","Title of List Three"
 ```
 
 Extracts a provisioning template in Office Open XML from the current web, including only the lists specified by title or ID.
